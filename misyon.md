@@ -1,4 +1,5 @@
 Bu uygulamanın tek misyonu,yaşanan deprem felaketinden sonra insanların konaklama sıkıntısıda göz önünde bulundurularak tasarlanmaya çalışmasıdır.
+
 ![3694021-middle](https://user-images.githubusercontent.com/90137054/229484371-a1066ea2-b69f-488e-a4a7-1148112cd0cf.png)
 
   
