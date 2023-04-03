@@ -1,0 +1,17 @@
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\bin\Debug\net6.0-windows\KAGA.exe
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\bin\Debug\net6.0-windows\KAGA.deps.json
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\bin\Debug\net6.0-windows\KAGA.runtimeconfig.json
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\bin\Debug\net6.0-windows\KAGA.dll
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\bin\Debug\net6.0-windows\KAGA.pdb
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.csproj.AssemblyReference.cache
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.Form1.resources
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.csproj.GenerateResource.cache
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.AssemblyInfoInputs.cache
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.AssemblyInfo.cs
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.csproj.CoreCompileInputs.cache
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.dll
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\refint\KAGA.dll
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.pdb
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\KAGA.genruntimeconfig.cache
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KAGA\obj\Debug\net6.0-windows\ref\KAGA.dll
