@@ -2,7 +2,7 @@ Bu uygulamanın tek misyonu,yaşanan deprem felaketinden sonra insanların konak
 
 ![3694021-middle](https://user-images.githubusercontent.com/90137054/229484371-a1066ea2-b69f-488e-a4a7-1148112cd0cf.png)
 
-                ![3694021-middle](https://user-images.githubusercontent.com/90137054/229482917-c0d53d0b-6a04-4c7e-a903-c15650a0e89d.png)
+               
 
 
                                            Depremzedeleri Güvenli Alanlara Yerleştirme Uygulaması
