@@ -37,5 +37,12 @@ namespace KagaDev
             f4.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            form5 f5 = new form5();
+            f5.Show ();
+            this.Hide();
+        }
     }
 }

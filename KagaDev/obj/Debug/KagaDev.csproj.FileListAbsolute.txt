@@ -28,3 +28,4 @@ C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KagaDev\obj\Debug\KagaDev.
 C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KagaDev\obj\Debug\KagaDev.csproj.CopyComplete
 C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KagaDev\obj\Debug\KagaDev.exe
 C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KagaDev\obj\Debug\KagaDev.pdb
+C:\Users\Eliot\Documents\GitHub\donem-projesi-emrept1\KagaDev\obj\Debug\KagaDev.form5.resources
