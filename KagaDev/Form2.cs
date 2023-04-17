@@ -76,12 +76,11 @@ namespace KagaDev
             cmd.Parameters.AddWithValue("@kan", textBox5.Text);
             cmd.Parameters.AddWithValue("@tc", textBox6.Text);
             cmd.Parameters.AddWithValue("@oda", textBox7.Text);
-            cmd.Parameters.AddWithValue("@cikis", Convert.ToString(dateTimePicker1));
-            cmd.Parameters.AddWithValue("@cikis", Convert.ToInt32(dateTimePicker2));
+            cmd.Parameters.AddWithValue("@cikis", dateTimePicker1.Value.ToString("yyyy-MM-dd"));
+            cmd.Parameters.AddWithValue("@cikis",dateTimePicker2.Value.ToString("yyyy-MM-dd"));
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
-            VeriGetir();
             MessageBox.Show("Kayıt Eklendi.");
         }
     }

@@ -83,7 +83,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(221, 317);
+            this.textBox1.Location = new System.Drawing.Point(237, 319);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(138, 22);
             this.textBox1.TabIndex = 10;
@@ -100,19 +100,20 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(221, 368);
+            this.textBox2.Location = new System.Drawing.Point(237, 368);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(138, 22);
             this.textBox2.TabIndex = 12;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(182, 419);
+            this.button1.Location = new System.Drawing.Point(219, 419);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 43);
             this.button1.TabIndex = 13;
             this.button1.Text = "Giriş Yap";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form3
             // 
