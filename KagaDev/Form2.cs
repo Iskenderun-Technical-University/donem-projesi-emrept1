@@ -67,7 +67,7 @@ namespace KagaDev
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string sorgu = "Insert into ekle (Ad,Soyad,Cinsiyet,Telefon,Kan,tc,oda,giris,cikis) values (@ad,@soyad,@cinsiyet,@telefon,@kan,@tc,@oda,@giris,@cikis)";
+            string sorgu = "Insert into dataadd (Ad,Soyad,Cinsiyet,Telefon,Kan,tc,oda,giris,cikis) values (@ad,@soyad,@cinsiyet,@telefon,@kan,@tc,@oda,@giris,@cikis)";
             cmd = new MySqlCommand(sorgu, conn);
             cmd.Parameters.AddWithValue("@ad", textBox1.Text);
             cmd.Parameters.AddWithValue("@soyad", textBox2.Text);
@@ -76,7 +76,7 @@ namespace KagaDev
             cmd.Parameters.AddWithValue("@kan", textBox5.Text);
             cmd.Parameters.AddWithValue("@tc", textBox6.Text);
             cmd.Parameters.AddWithValue("@oda", textBox7.Text);
-            cmd.Parameters.AddWithValue("@cikis", dateTimePicker1.Value.ToString("yyyy-MM-dd"));
+            cmd.Parameters.AddWithValue("@giris", dateTimePicker1.Value.ToString("yyyy-MM-dd"));
             cmd.Parameters.AddWithValue("@cikis",dateTimePicker2.Value.ToString("yyyy-MM-dd"));
             conn.Open();
             cmd.ExecuteNonQuery();
