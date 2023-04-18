@@ -77,5 +77,43 @@ namespace KagaDev
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            cmd = new MySqlCommand("delete from dataadd where id=("+id+")",conn);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            veriGetir();
+            textBox1.Clear();
+            textBox2.Clear();
+            comboBox1.Text="";
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            textBox7.Clear();
+            dateTimePicker1.Text="";
+            dateTimePicker2.Text = "";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string sorgu = "UPDATE dataadd"+"SET Ad=@ad,Soyad=@soyad,Cinsiyet=@cinsiyet,Telefon=@telefon,Kan=@kan,tc=@tc,oda=@oda,giris=@giris,cikis=@cikis" + 
+                "WHERE ID="+id+"";
+            cmd = new MySqlCommand(sorgu, conn);
+            cmd.Parameters.AddWithValue("@ad", textBox1.Text);
+            cmd.Parameters.AddWithValue("@soyad", textBox2.Text);
+            cmd.Parameters.AddWithValue("@cinsiyet", comboBox1.Text);
+            cmd.Parameters.AddWithValue("@telefon", textBox4.Text);
+            cmd.Parameters.AddWithValue("@kan", textBox5.Text);
+            cmd.Parameters.AddWithValue("@tc", textBox6.Text);
+            cmd.Parameters.AddWithValue("@oda", textBox7.Text);
+            cmd.Parameters.AddWithValue("@giris", dateTimePicker1.Value.ToString("yyyy-MM-dd"));
+            cmd.Parameters.AddWithValue("@cikis", dateTimePicker2.Value.ToString("yyyy-MM-dd"));
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            MessageBox.Show("Kayıt Eklendi.");
+        }
     }
 }

@@ -79,9 +79,9 @@
             this.columnHeader18,
             this.columnHeader19});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(-4, 345);
+            this.listView1.Location = new System.Drawing.Point(-1, 338);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1067, 222);
+            this.listView1.Size = new System.Drawing.Size(994, 222);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -90,7 +90,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(746, 22);
+            this.button1.Location = new System.Drawing.Point(750, 22);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 63);
             this.button1.TabIndex = 1;
@@ -100,25 +100,27 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(864, 22);
+            this.button2.Location = new System.Drawing.Point(868, 22);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 63);
             this.button2.TabIndex = 2;
             this.button2.Text = "Güncelle";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(864, 134);
+            this.button3.Location = new System.Drawing.Point(868, 134);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 63);
             this.button3.TabIndex = 3;
             this.button3.Text = "Sil";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(746, 134);
+            this.button4.Location = new System.Drawing.Point(750, 134);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 63);
             this.button4.TabIndex = 4;
@@ -277,7 +279,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(725, 236);
+            this.label10.Location = new System.Drawing.Point(729, 236);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(96, 16);
             this.label10.TabIndex = 31;
@@ -285,7 +287,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(834, 233);
+            this.textBox3.Location = new System.Drawing.Point(838, 233);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(138, 22);
             this.textBox3.TabIndex = 32;
@@ -342,7 +344,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1064, 562);
+            this.ClientSize = new System.Drawing.Size(994, 562);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.dateTimePicker2);
