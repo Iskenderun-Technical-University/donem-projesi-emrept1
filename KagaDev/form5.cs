@@ -16,7 +16,7 @@ namespace KagaDev
         {
             InitializeComponent();
         }
-        MySqlConnection conn = new MySqlConnection("Server=localhost;Database=kaga;Uid=root;Pwd='';");
+        MySqlConnection conn = new MySqlConnection("Server=localhost;Database=kaga;Uid=root;Pwd='';Persist Security Info=True;Convert Zero Datetime=True;");
         MySqlCommand cmd;
         MySqlDataAdapter adapter;
         DataTable dt;
@@ -98,21 +98,11 @@ namespace KagaDev
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string sorgu = "UPDATE dataadd"+"SET Ad=@ad,Soyad=@soyad,Cinsiyet=@cinsiyet,Telefon=@telefon,Kan=@kan,tc=@tc,oda=@oda,giris=@giris,cikis=@cikis" + 
-                "WHERE ID="+id+"";
-            cmd = new MySqlCommand(sorgu, conn);
-            cmd.Parameters.AddWithValue("@ad", textBox1.Text);
-            cmd.Parameters.AddWithValue("@soyad", textBox2.Text);
-            cmd.Parameters.AddWithValue("@cinsiyet", comboBox1.Text);
-            cmd.Parameters.AddWithValue("@telefon", textBox4.Text);
-            cmd.Parameters.AddWithValue("@kan", textBox5.Text);
-            cmd.Parameters.AddWithValue("@tc", textBox6.Text);
-            cmd.Parameters.AddWithValue("@oda", textBox7.Text);
-            cmd.Parameters.AddWithValue("@giris", dateTimePicker1.Value.ToString("yyyy-MM-dd"));
-            cmd.Parameters.AddWithValue("@cikis", dateTimePicker2.Value.ToString("yyyy-MM-dd"));
             conn.Open();
-            cmd.ExecuteNonQuery();
-            conn.Close();
+            cmd = new MySqlCommand("update dataadd set Ad='"+textBox1.Text+"',Soyad='"+textBox2.Text+"',Cinsiyet='"+comboBox1.Text+"',Telefon='"+textBox4.Text+"',Kan='"+textBox5.Text+"',tc='"+textBox6.Text+"',oda='"+textBox7.Text+"'where ID="+id+"",conn);
+            cmd.ExecuteNonQuery(); 
+            conn.Close(); 
+            veriGetir();
             MessageBox.Show("Kayıt Eklendi.");
         }
     }

@@ -29,10 +29,16 @@
         private void InitializeComponent()
         {
             this.listView1 = new System.Windows.Forms.ListView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -51,18 +57,15 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // listView1
@@ -88,44 +91,53 @@
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
-            // button1
+            // columnHeader10
             // 
-            this.button1.Location = new System.Drawing.Point(750, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 63);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Veri Göster";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.columnHeader10.Text = "ID";
+            this.columnHeader10.Width = 37;
             // 
-            // button2
+            // columnHeader11
             // 
-            this.button2.Location = new System.Drawing.Point(868, 22);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 63);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Güncelle";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.columnHeader11.Text = "Ad";
+            this.columnHeader11.Width = 94;
             // 
-            // button3
+            // columnHeader12
             // 
-            this.button3.Location = new System.Drawing.Point(868, 134);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 63);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Sil";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.columnHeader12.Text = "Soyad";
+            this.columnHeader12.Width = 98;
             // 
-            // button4
+            // columnHeader13
             // 
-            this.button4.Location = new System.Drawing.Point(750, 134);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 63);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Ara";
-            this.button4.UseVisualStyleBackColor = true;
+            this.columnHeader13.Text = "Cinsiyet";
+            this.columnHeader13.Width = 63;
+            // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "Telefon";
+            this.columnHeader14.Width = 120;
+            // 
+            // columnHeader15
+            // 
+            this.columnHeader15.Text = "Kan";
+            // 
+            // columnHeader16
+            // 
+            this.columnHeader16.Text = "Tc";
+            this.columnHeader16.Width = 122;
+            // 
+            // columnHeader17
+            // 
+            this.columnHeader17.Text = "Oda";
+            // 
+            // columnHeader18
+            // 
+            this.columnHeader18.Text = "Giris Tarihi";
+            this.columnHeader18.Width = 116;
+            // 
+            // columnHeader19
+            // 
+            this.columnHeader19.Text = "Cikis Tarihi";
+            this.columnHeader19.Width = 112;
             // 
             // comboBox1
             // 
@@ -276,77 +288,90 @@
             this.textBox6.Size = new System.Drawing.Size(138, 22);
             this.textBox6.TabIndex = 24;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Location = new System.Drawing.Point(637, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(345, 260);
+            this.groupBox1.TabIndex = 34;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "İşlemler";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(86, 80);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(99, 30);
+            this.button5.TabIndex = 40;
+            this.button5.Text = "Temizle";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(729, 236);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(35, 144);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(96, 16);
-            this.label10.TabIndex = 31;
-            this.label10.Text = "İsime Göre Ara";
+            this.label10.Size = new System.Drawing.Size(127, 20);
+            this.label10.TabIndex = 38;
+            this.label10.Text = "İsime Göre Ara:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(838, 233);
+            this.textBox3.Location = new System.Drawing.Point(175, 141);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(138, 22);
-            this.textBox3.TabIndex = 32;
+            this.textBox3.TabIndex = 39;
             // 
-            // columnHeader10
+            // button4
             // 
-            this.columnHeader10.Text = "ID";
-            this.columnHeader10.Width = 37;
+            this.button4.Location = new System.Drawing.Point(141, 189);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(99, 30);
+            this.button4.TabIndex = 37;
+            this.button4.Text = "Ara";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // columnHeader11
+            // button3
             // 
-            this.columnHeader11.Text = "Ad";
-            this.columnHeader11.Width = 94;
+            this.button3.Location = new System.Drawing.Point(208, 80);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(105, 30);
+            this.button3.TabIndex = 36;
+            this.button3.Text = "Sil";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // columnHeader12
+            // button2
             // 
-            this.columnHeader12.Text = "Soyad";
-            this.columnHeader12.Width = 98;
+            this.button2.Location = new System.Drawing.Point(208, 24);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(102, 34);
+            this.button2.TabIndex = 35;
+            this.button2.Text = "Güncelle";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // columnHeader13
+            // button1
             // 
-            this.columnHeader13.Text = "Cinsiyet";
-            this.columnHeader13.Width = 63;
-            // 
-            // columnHeader14
-            // 
-            this.columnHeader14.Text = "Telefon";
-            this.columnHeader14.Width = 120;
-            // 
-            // columnHeader15
-            // 
-            this.columnHeader15.Text = "Kan";
-            // 
-            // columnHeader16
-            // 
-            this.columnHeader16.Text = "Tc";
-            this.columnHeader16.Width = 122;
-            // 
-            // columnHeader17
-            // 
-            this.columnHeader17.Text = "Oda";
-            // 
-            // columnHeader18
-            // 
-            this.columnHeader18.Text = "Giris Tarihi";
-            this.columnHeader18.Width = 116;
-            // 
-            // columnHeader19
-            // 
-            this.columnHeader19.Text = "Cikis Tarihi";
-            this.columnHeader19.Width = 112;
+            this.button1.Location = new System.Drawing.Point(86, 24);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 34);
+            this.button1.TabIndex = 34;
+            this.button1.Text = "Veri Göster";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(994, 562);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label8);
@@ -356,10 +381,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
@@ -373,6 +394,8 @@
             this.Name = "form5";
             this.Text = "Oda Doluluk Çizelgesi";
             this.Load += new System.EventHandler(this.form5_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -381,10 +404,6 @@
         #endregion
 
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox5;
@@ -403,8 +422,6 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ColumnHeader columnHeader10;
         private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.ColumnHeader columnHeader12;
@@ -415,5 +432,13 @@
         private System.Windows.Forms.ColumnHeader columnHeader17;
         private System.Windows.Forms.ColumnHeader columnHeader18;
         private System.Windows.Forms.ColumnHeader columnHeader19;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
