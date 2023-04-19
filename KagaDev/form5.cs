@@ -16,6 +16,7 @@ namespace KagaDev
         {
             InitializeComponent();
         }
+        // veri tabanı bağlantısı ve parametrelerin tanımlanması
         MySqlConnection conn = new MySqlConnection("Server=localhost;Database=kaga;Uid=root;Pwd='';Persist Security Info=True;Convert Zero Datetime=True;");
         MySqlCommand cmd;
         MySqlDataAdapter adapter;
@@ -26,13 +27,13 @@ namespace KagaDev
             listView1.Items.Clear();
             conn.Open();
             cmd = new MySqlCommand("select * from dataadd", conn);
-            MySqlDataReader dr = cmd.ExecuteReader();
+            MySqlDataReader dr = cmd.ExecuteReader();// değişiklikleri uygulamak için executeReader fonksiyonu kullanılır.
 
             while(dr.Read())
             { 
 
             ListViewItem ekle = new ListViewItem();
-
+                // verilerimizi data table aracılığı ile listwievimize çekiyoruz..
                 ekle.Text = dr["ID"].ToString();
                 ekle.SubItems.Add(dr["Ad"].ToString());
                 ekle.SubItems.Add(dr["Soyad"].ToString());
@@ -60,6 +61,7 @@ namespace KagaDev
         int id = 0;
         private void listView1_DoubleClick(object sender, EventArgs e)
         {
+            // verileri listwieve çekiyoruz
             id = int.Parse(listView1.SelectedItems[0].SubItems[0].Text);
             textBox1.Text = listView1.SelectedItems[0].SubItems[1].Text;
             textBox2.Text = listView1.SelectedItems[0].SubItems[2].Text;
@@ -81,7 +83,7 @@ namespace KagaDev
         private void button3_Click(object sender, EventArgs e)
         {
             conn.Open();
-            cmd = new MySqlCommand("delete from dataadd where id=("+id+")",conn);
+            cmd = new MySqlCommand("delete from dataadd where id=("+id+")",conn); // silme sql sorgusu
             cmd.ExecuteNonQuery();
             conn.Close();
             veriGetir();
@@ -94,6 +96,8 @@ namespace KagaDev
             textBox7.Clear();
             dateTimePicker1.Text="";
             dateTimePicker2.Text = "";
+            //
+            //
         }
 
         private void button2_Click(object sender, EventArgs e)

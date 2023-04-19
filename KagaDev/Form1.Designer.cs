@@ -37,6 +37,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,14 +118,44 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(107, 68);
             this.button6.TabIndex = 8;
-            this.button6.Text = "Yeni Kayıt";
+            this.button6.Text = "Personel Maaş";
             this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(228, 409);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(107, 68);
+            this.button7.TabIndex = 9;
+            this.button7.Text = "Stoklar";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(410, 409);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(107, 68);
+            this.button8.TabIndex = 10;
+            this.button8.Text = "Müşteri Mesajlar";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(587, 409);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(107, 68);
+            this.button9.TabIndex = 11;
+            this.button9.Text = "Hakkımızda";
+            this.button9.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(745, 508);
+            this.ClientSize = new System.Drawing.Size(745, 546);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button2);
@@ -150,6 +183,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }
 
