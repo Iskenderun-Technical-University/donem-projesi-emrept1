@@ -105,5 +105,33 @@ namespace KagaDev
             veriGetir();
             MessageBox.Show("Kayıt Eklendi.");
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            listView1.Items.Clear();
+            conn.Open();
+            cmd = new MySqlCommand("select * from dataadd where Ad like '%"+textBox3.Text+"%'", conn);
+            MySqlDataReader dr = cmd.ExecuteReader();
+
+            while (dr.Read())
+            {
+
+                ListViewItem ekle = new ListViewItem();
+
+                ekle.Text = dr["ID"].ToString();
+                ekle.SubItems.Add(dr["Ad"].ToString());
+                ekle.SubItems.Add(dr["Soyad"].ToString());
+                ekle.SubItems.Add(dr["Cinsiyet"].ToString());
+                ekle.SubItems.Add(dr["Telefon"].ToString());
+                ekle.SubItems.Add(dr["Kan"].ToString());
+                ekle.SubItems.Add(dr["tc"].ToString());
+                ekle.SubItems.Add(dr["oda"].ToString());
+                ekle.SubItems.Add(dr["giris"].ToString());
+                ekle.SubItems.Add(dr["cikis"].ToString());
+
+                listView1.Items.Add(ekle);
+            }
+            conn.Close();
+        }
     }
 }
