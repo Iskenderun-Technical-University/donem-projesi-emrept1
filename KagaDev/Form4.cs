@@ -37,7 +37,7 @@ namespace KagaDev
                 button2.BackColor = Color.Red;
             }
             conn.Open();
-            cmd = new MySqlCommand("select * from 201", conn);
+            cmd = new MySqlCommand("select * from oda2", conn);
             MySqlDataReader rd1 = cmd.ExecuteReader();
 
             while (rd1.Read())
@@ -49,6 +49,102 @@ namespace KagaDev
             {
                 button3.BackColor = Color.Red;
             }
+            conn.Open();
+            cmd = new MySqlCommand("select * from oda3", conn);
+            MySqlDataReader rd2 = cmd.ExecuteReader();
+
+            while (rd2.Read())
+            {
+                button4.Text = rd2["Adi"].ToString() + "" + rd2["Soyadi"].ToString();
+            }
+            conn.Close();
+            if (button4.Text != "202")
+            {
+                button4.BackColor = Color.Red;
+            }
+            conn.Open();
+            cmd = new MySqlCommand("select * from oda4", conn);
+            MySqlDataReader rd3 = cmd.ExecuteReader();
+
+            while (rd3.Read())
+            {
+                button5.Text = rd3["Adi"].ToString() + "" + rd3["Soyadi"].ToString();
+            }
+            conn.Close();
+            if (button5.Text != "203")
+            {
+                button5.BackColor = Color.Red;
+            }
+            conn.Open();
+            cmd = new MySqlCommand("select * from oda5", conn);
+            MySqlDataReader rd4 = cmd.ExecuteReader();
+
+            while (rd4.Read())
+            {
+                button6.Text = rd4["Adi"].ToString() + "" + rd4["Soyadi"].ToString();
+            }
+            conn.Close();
+            if (button6.Text != "204")
+            {
+                button6.BackColor = Color.Red;
+            }
+            conn.Open();
+            cmd = new MySqlCommand("select * from oda6", conn);
+            MySqlDataReader rd5 = cmd.ExecuteReader();
+
+            while (rd5.Read())
+            {
+                button7.Text = rd5["Adi"].ToString() + "" + rd5["Soyadi"].ToString();
+            }
+            conn.Close();
+            if (button7.Text != "205")
+            {
+                button7.BackColor = Color.Red;
+            }
+            conn.Open();
+            cmd = new MySqlCommand("select * from oda7", conn);
+            MySqlDataReader rd6 = cmd.ExecuteReader();
+
+            while (rd6.Read())
+            {
+                button8.Text = rd6["Adi"].ToString() + "" + rd6["Soyadi"].ToString();
+            }
+            conn.Close();
+            if (button8.Text != "206")
+            {
+                button8.BackColor = Color.Red;
+            }
+            conn.Open();
+            cmd = new MySqlCommand("select * from oda8", conn);
+            MySqlDataReader rd7 = cmd.ExecuteReader();
+
+            while (rd7.Read())
+            {
+                button9.Text = rd7["Adi"].ToString() + "" + rd7["Soyadi"].ToString();
+            }
+            conn.Close();
+            if (button9.Text != "207")
+            {
+                button9.BackColor = Color.Red;
+            }
+            conn.Open();
+            cmd = new MySqlCommand("select * from oda9", conn);
+            MySqlDataReader rd8 = cmd.ExecuteReader();
+
+            while (rd8.Read())
+            {
+                button10.Text = rd8["Adi"].ToString() + "" + rd8["Soyadi"].ToString();
+            }
+            conn.Close();
+            if (button10.Text != "208")
+            {
+                button10.BackColor = Color.Red;
+            }
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
 
         }
     }
