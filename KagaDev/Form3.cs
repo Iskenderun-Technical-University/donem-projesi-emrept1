@@ -35,9 +35,13 @@ namespace KagaDev
             cmd.Connection = con;
             cmd.CommandText = "SELECT * FROM admingiris where usr='" + textBox1.Text + "' AND pwd='" + textBox2.Text + "'";
             dr = cmd.ExecuteReader();
+
             if (dr.Read())
             {
                 MessageBox.Show("Giriş Başarılı.");
+                Form1 f1 = new Form1();
+                f1.Show();
+                this.Hide();
             }
             else
             {

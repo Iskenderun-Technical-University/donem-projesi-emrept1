@@ -17,11 +17,10 @@ namespace KagaDev
             InitializeComponent();
         }
 
+        
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 f3 =new Form3();
-            f3.Show();
-            this.Hide();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -47,7 +46,28 @@ namespace KagaDev
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            timer1.Start();
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("KAGA Kayıt Sistemleri | Geliştirici: Samed Emre Kayaalp | İskenderun Teknik Üniversitesi");
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label2.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Iskenderun-Technical-University/donem-projesi-emrept1");
         }
     }
 }

@@ -87,17 +87,7 @@ namespace KagaDev
             cmd.ExecuteNonQuery();
             conn.Close();
             veriGetir();
-            textBox1.Clear();
-            textBox2.Clear();
-            comboBox1.Text="";
-            textBox4.Clear();
-            textBox5.Clear();
-            textBox6.Clear();
-            textBox7.Clear();
-            dateTimePicker1.Text="";
-            dateTimePicker2.Text = "";
-            //
-            //
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -141,6 +131,21 @@ namespace KagaDev
         private void button3_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            comboBox1.Text = "";
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            textBox7.Clear();
+            dateTimePicker1.Text = "";
+            dateTimePicker2.Text = "";
+            //
+            //
         }
     }
 }

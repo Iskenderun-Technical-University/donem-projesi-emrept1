@@ -257,5 +257,22 @@ namespace KagaDev
                 button10.Enabled = false;
             }
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Kayıt edeceğiniz kişinin bilgilerini girerek ve oda numarasını seçerek kayıt yapınız.Lütfen alanları boş bırakmayınız.");
+        }
     }
 }
