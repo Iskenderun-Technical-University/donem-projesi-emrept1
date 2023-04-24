@@ -26,7 +26,7 @@ namespace KagaDev
         {
             textBox7.Text = "200";
             conn.Open();
-            cmd = new MySqlCommand("Insert into oda1 (Adi,Soyadi) values '" + textBox1.Text + "','"+textBox2.Text+"')",conn);
+            cmd = new MySqlCommand("Insert into oda1 (Adi,Soyadi) values ('" + textBox1.Text + "','"+textBox2.Text+"')",conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
@@ -35,7 +35,7 @@ namespace KagaDev
         {
             textBox7.Text = "201";
             conn.Open();
-            cmd = new MySqlCommand("Insert into oda2 (Adi,Soyadi) values '" + textBox1.Text + "','" + textBox2.Text + "')", conn);
+            cmd = new MySqlCommand("Insert into oda2 (Adi,Soyadi) values ('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
@@ -44,7 +44,7 @@ namespace KagaDev
         {
             textBox7.Text = "202";
             conn.Open();
-            cmd = new MySqlCommand("Insert into oda3 (Adi,Soyadi) values '" + textBox1.Text + "','" + textBox2.Text + "')", conn);
+            cmd = new MySqlCommand("Insert into oda3 (Adi,Soyadi) values ('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
@@ -53,7 +53,7 @@ namespace KagaDev
         {
             textBox7.Text = "203";
             conn.Open();
-            cmd = new MySqlCommand("Insert into oda4 (Adi,Soyadi) values '" + textBox1.Text + "','" + textBox2.Text + "')", conn);
+            cmd = new MySqlCommand("Insert into oda4 (Adi,Soyadi) values ('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
@@ -62,7 +62,7 @@ namespace KagaDev
         {
             textBox7.Text = "204";
             conn.Open();
-            cmd = new MySqlCommand("Insert into oda5 (Adi,Soyadi) values '" + textBox1.Text + "','" + textBox2.Text + "')", conn);
+            cmd = new MySqlCommand("Insert into oda5 (Adi,Soyadi) values ('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
@@ -71,7 +71,7 @@ namespace KagaDev
         {
             textBox7.Text = "205";
             conn.Open();
-            cmd = new MySqlCommand("Insert into oda6 (Adi,Soyadi) values '" + textBox1.Text + "','" + textBox2.Text + "')", conn);
+            cmd = new MySqlCommand("Insert into oda6 (Adi,Soyadi) values ('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
@@ -80,7 +80,7 @@ namespace KagaDev
         {
             textBox7.Text = "206";
             conn.Open();
-            cmd = new MySqlCommand("Insert into oda7 (Adi,Soyadi) values '" + textBox1.Text + "','" + textBox2.Text + "')", conn);
+            cmd = new MySqlCommand("Insert into oda7 (Adi,Soyadi) values ('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
@@ -89,7 +89,7 @@ namespace KagaDev
         {
             textBox7.Text = "207";
             conn.Open();
-            cmd = new MySqlCommand("insert into oda8 (Adi,Soyadi) values '" + textBox1.Text + "','" + textBox2.Text + "')", conn);
+            cmd = new MySqlCommand("insert into oda8 (Adi,Soyadi) values ('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
@@ -98,7 +98,7 @@ namespace KagaDev
         {
             textBox7.Text = "208";
             conn.Open();
-            cmd = new MySqlCommand("insert into oda9 (Adi,Soyadi) values '" + textBox1.Text + "','" + textBox2.Text + "')", conn);
+            cmd = new MySqlCommand("insert into oda9 (Adi,Soyadi) values ('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }
