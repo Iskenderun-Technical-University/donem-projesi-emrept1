@@ -113,7 +113,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Bay",
             "Bayan"});
-            this.comboBox1.Location = new System.Drawing.Point(115, 137);
+            this.comboBox1.Location = new System.Drawing.Point(123, 134);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(138, 28);
             this.comboBox1.TabIndex = 22;
@@ -162,7 +162,7 @@
             // textBox7
             // 
             this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(115, 360);
+            this.textBox7.Location = new System.Drawing.Point(123, 357);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(138, 27);
             this.textBox7.TabIndex = 14;
@@ -178,7 +178,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(115, 299);
+            this.textBox6.Location = new System.Drawing.Point(123, 296);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(138, 27);
             this.textBox6.TabIndex = 12;
@@ -186,7 +186,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(2, 248);
+            this.label5.Location = new System.Drawing.Point(6, 245);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 20);
             this.label5.TabIndex = 9;
@@ -194,7 +194,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(115, 248);
+            this.textBox5.Location = new System.Drawing.Point(123, 245);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(138, 27);
             this.textBox5.TabIndex = 10;
@@ -210,7 +210,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(115, 186);
+            this.textBox4.Location = new System.Drawing.Point(123, 183);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(138, 27);
             this.textBox4.TabIndex = 8;
@@ -235,7 +235,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(115, 84);
+            this.textBox2.Location = new System.Drawing.Point(123, 81);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(138, 27);
             this.textBox2.TabIndex = 4;
@@ -251,7 +251,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(115, 34);
+            this.textBox1.Location = new System.Drawing.Point(123, 31);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(138, 27);
             this.textBox1.TabIndex = 2;
@@ -441,7 +441,7 @@
             this.button14.ForeColor = System.Drawing.Color.DarkGreen;
             this.button14.Location = new System.Drawing.Point(43, 2);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(201, 26);
+            this.button14.Size = new System.Drawing.Size(145, 31);
             this.button14.TabIndex = 4;
             this.button14.Text = "Anasayfa";
             this.button14.UseVisualStyleBackColor = true;

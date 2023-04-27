@@ -131,7 +131,11 @@ namespace KagaDev
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-
+            conn.Open();
+            cmd = new MySqlCommand("delete from dataadd where id=(" + id + ")", conn); // silme sql sorgusu
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            veriGetir();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -160,6 +164,22 @@ namespace KagaDev
         private void button13_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            veriGetir();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            // kayıt eklemek için veri tabanındaki eklenecek alanlara textboxtaki verileri gönderdik.
+            conn.Open();
+            cmd = new MySqlCommand("update dataadd set Ad='" + textBox1.Text + "',Soyad='" + textBox2.Text + "',Cinsiyet='" + comboBox1.Text + "',Telefon='" + textBox4.Text + "',Kan='" + textBox5.Text + "',tc='" + textBox6.Text + "',oda='" + textBox7.Text + "'where ID=" + id + "", conn);
+            cmd.ExecuteNonQuery(); //komutları önizledik,başarıyla gerçekleştirip bağlantıyı kapattık ve verileri veri tabanından tekrar çektik yeni kayıt gelmesi için
+            conn.Close();
+            veriGetir();
+            MessageBox.Show("Kayıt Güncellendi.");
         }
     }
 }

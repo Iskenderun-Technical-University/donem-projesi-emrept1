@@ -105,6 +105,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(237, 368);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(138, 22);
             this.textBox2.TabIndex = 12;
             // 
@@ -157,7 +158,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button3.Location = new System.Drawing.Point(463, 12);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(26, 23);
+            this.button3.Size = new System.Drawing.Size(26, 45);
             this.button3.TabIndex = 14;
             this.button3.Text = "X";
             this.button3.UseVisualStyleBackColor = true;
