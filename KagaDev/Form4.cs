@@ -17,19 +17,22 @@ namespace KagaDev
         {
             InitializeComponent();
         }
+        // veri tabanı ile bağlantımızı kurduk.
         MySqlConnection conn = new MySqlConnection("Server=localhost;Database=kaga;Uid=root;Pwd='';Persist Security Info=True;Convert Zero Datetime=True;");
         MySqlCommand cmd;
         MySqlDataAdapter adapter;
         DataTable dt;
         private void Form4_Load(object sender, EventArgs e)
         {
+            // formun loadındaki işlem form açıldığı anda arka planda veri tabanı bağlantısını açar.
+            //Açtıktan sonra odaları tarar ve odalarda biri varsa bunları oda numarasına göre butonlara çeker
             conn.Open();
             cmd = new MySqlCommand("select * from oda1", conn);
             MySqlDataReader rd=cmd.ExecuteReader();
 
             while(rd.Read())
             {
-                button2.Text = rd["Adi"].ToString() + ""+ rd["Soyadi"].ToString();
+                button2.Text = rd["Adi"].ToString() + ""+ rd["Soyadi"].ToString();// adı ve soyadı şeklinde butona çektirdik.
             }
             conn.Close();
             if(button2.Text!="200")
@@ -146,6 +149,18 @@ namespace KagaDev
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
