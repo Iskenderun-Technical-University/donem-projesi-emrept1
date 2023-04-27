@@ -446,6 +446,7 @@
             this.Controls.Add(this.label4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Oda Doluluk Çizelgesi";
             this.Load += new System.EventHandler(this.form5_Load);
             this.groupBox1.ResumeLayout(false);
