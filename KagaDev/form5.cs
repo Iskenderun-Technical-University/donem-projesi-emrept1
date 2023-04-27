@@ -131,11 +131,79 @@ namespace KagaDev
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            conn.Open();
-            cmd = new MySqlCommand("delete from dataadd where id=(" + id + ")", conn); // silme sql sorgusu
-            cmd.ExecuteNonQuery();
-            conn.Close();
-            veriGetir();
+            if (textBox7.Text == "200")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda1", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+            if (textBox7.Text == "201")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda2", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+            if (textBox7.Text == "202")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda3", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+            if (textBox7.Text == "203")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda4", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+            if (textBox7.Text == "204")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda5", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+            if (textBox7.Text == "205")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda6", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+            if (textBox7.Text == "206")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda7", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+            if (textBox7.Text == "207")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda8", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+            if (textBox7.Text == "208")
+            {
+                conn.Open();
+                cmd = new MySqlCommand("delete from oda9", conn); // silme sql sorgusu
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                veriGetir();
+            }
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -180,6 +248,20 @@ namespace KagaDev
             conn.Close();
             veriGetir();
             MessageBox.Show("Kayıt Güncellendi.");
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            cmd = new MySqlCommand("delete from dataadd where id=(" + id + ")", conn);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            veriGetir();
         }
     }
 }

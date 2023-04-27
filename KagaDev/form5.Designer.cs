@@ -67,6 +67,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -289,6 +290,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(138, 27);
             this.textBox7.TabIndex = 26;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // label6
             // 
@@ -310,6 +312,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button6);
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.textBox3);
@@ -339,7 +342,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(28, 164);
+            this.label10.Location = new System.Drawing.Point(35, 176);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(127, 20);
             this.label10.TabIndex = 38;
@@ -347,14 +350,14 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(189, 165);
+            this.textBox3.Location = new System.Drawing.Point(196, 177);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(138, 27);
             this.textBox3.TabIndex = 39;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(134, 209);
+            this.button4.Location = new System.Drawing.Point(141, 221);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(99, 30);
             this.button4.TabIndex = 37;
@@ -418,6 +421,16 @@
             this.button13.Text = "X";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(114, 122);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(119, 30);
+            this.button6.TabIndex = 41;
+            this.button6.Text = "Kayıt Düş";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // form5
             // 
@@ -499,5 +512,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button6;
     }
 }
