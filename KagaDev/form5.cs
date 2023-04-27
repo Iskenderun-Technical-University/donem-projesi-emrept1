@@ -92,9 +92,10 @@ namespace KagaDev
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // kayıt eklemek için veri tabanındaki eklenecek alanlara textboxtaki verileri gönderdik.
             conn.Open();
             cmd = new MySqlCommand("update dataadd set Ad='"+textBox1.Text+"',Soyad='"+textBox2.Text+"',Cinsiyet='"+comboBox1.Text+"',Telefon='"+textBox4.Text+"',Kan='"+textBox5.Text+"',tc='"+textBox6.Text+"',oda='"+textBox7.Text+"'where ID="+id+"",conn);
-            cmd.ExecuteNonQuery(); 
+            cmd.ExecuteNonQuery(); //komutları önizledik,başarıyla gerçekleştirip bağlantıyı kapattık ve verileri veri tabanından tekrar çektik yeni kayıt gelmesi için
             conn.Close(); 
             veriGetir();
             MessageBox.Show("Kayıt Eklendi.");
@@ -104,12 +105,12 @@ namespace KagaDev
         {
             listView1.Items.Clear();
             conn.Open();
-            cmd = new MySqlCommand("select * from dataadd where Ad like '%"+textBox3.Text+"%'", conn);
+            cmd = new MySqlCommand("select * from dataadd where Ad like '%"+textBox3.Text+"%'", conn);// textboxtaki veriyi veri tabanında aratma sorgusu yazdık eşleşirse;
             MySqlDataReader dr = cmd.ExecuteReader();
 
             while (dr.Read())
             {
-
+                // yazdığımız sorguyu okurken eşleşme olursa listwieve parametre parametre dataları çekiyoruz..
                 ListViewItem ekle = new ListViewItem();
 
                 ekle.Text = dr["ID"].ToString();
@@ -135,6 +136,7 @@ namespace KagaDev
 
         private void button5_Click(object sender, EventArgs e)
         {
+            // verileri temizlemek için
             textBox1.Clear();
             textBox2.Clear();
             comboBox1.Text = "";
@@ -146,6 +148,18 @@ namespace KagaDev
             dateTimePicker2.Text = "";
             //
             //
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
