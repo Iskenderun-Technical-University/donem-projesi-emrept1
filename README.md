@@ -4,14 +4,14 @@
 
                                      Kriz Anında Yönetilebilir Alan Kayıt Otomasyonu
 
-->Misyonu,kriz anlarında(deprem vs.) o ilin belediyesi tarafından güvenilir alan olarka seçilmiş yapılara,insanları kadameli olarak yerleştirmeyi vaat eder.bir nevi kayıt otamasyonu misyonu taşır.
+->Bildiğimiz üzere büyük bir felaket yaşadık.Kriz iyi yönetildi,yönetilmedi bunlar tartışılır fakat konaklama konusunda halkın sıkıntılar yaşadığı ap açık ortadaydı.Bu projenin misyonu,kriz anlarında(deprem gibi vs.) o ilin belediyesi tarafından güvenilir alan olarka seçilmiş yapılara,insanları kadameli olarak yerleştirmeyi vaat eder.İnsanları madur etmeyecek bir şekilde güvenilir alanlara dolu-boş oranına bakarak yerleştirir bir nevi kayıt otamasyonu misyonu taşır.
 
-->Veritabanı performans iyleştirmesi ile dynamic database imkanı sunar.
+->Veritabanı performans iyleştirmesi ile dynamic database imkanı sunar.Cod-Veritabanı iyileştirmesi yani dinamik olarak kodlanmış bu uygulama,gerek performans gerek sistemlerde karışıklık olmaması için özenle geliştirilmeye çalışılmıştır.
 
-->Kriz anlarında karmaşıklık olmaması çok önemlidir,KAGA sizlere disiplin konusunda yardımcı olucaktır.
+->Kriz anlarında karmaşıklık olmaması çok önemlidir,ve bir nevi zamanla yarışıyoruz demektir.Bu uygulama sizlere disiplin-performans-düzen üçlüsünü misyonu endinmiş,bu misyonu içine entegre etmiştir.
 
 
-<h1>Mimari</h1>
+<h1>Veri Tabanı Mimari</h1>
 
 
 
