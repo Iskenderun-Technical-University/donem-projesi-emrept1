@@ -4,7 +4,7 @@
 
                                      Kriz Anında Yönetilebilir Alan Kayıt Otomasyonu
 
-->Bildiğimiz üzere büyük bir felaket yaşadık.Kriz iyi yönetildi,yönetilmedi bunlar tartışılır fakat konaklama konusunda halkın sıkıntılar yaşadığı ap açık ortadaydı.Bu projenin misyonu,kriz anlarında(deprem gibi vs.) o ilin belediyesi tarafından güvenilir alan olarka seçilmiş yapılara,insanları kadameli olarak yerleştirmeyi vaat eder.İnsanları madur etmeyecek bir şekilde güvenilir alanlara dolu-boş oranına bakarak yerleştirir bir nevi kayıt otamasyonu misyonu taşır.
+->Bildiğimiz üzere büyük bir felaket yaşadık.Kriz iyi yönetildi,yönetilmedi bunlar tartışılır fakat konaklama konusunda halkın sıkıntılar yaşadığı ap açık ortadaydı.Bu projenin misyonu,kriz anlarında(deprem gibi vs.) o ilin belediyesi tarafından güvenilir alan olark seçilmiş(Devlet yapılarının bir çoğu kriz anlarında çok zarar görmedi ve bu uygulama ilerleyen zamanlarda böyle yapıların olduğunu baz almıştır)yapılara,insanları kademeli olarak yerleştirmeyi vaat eder.İnsanları madur etmeyecek bir şekilde güvenilir alanlara dolu-boş oranına bakarak yerleştirir bir nevi kayıt otamasyonu misyonu taşır.
 
 ->Veritabanı performans iyleştirmesi ile dynamic database imkanı sunar.Cod-Veritabanı iyileştirmesi yani dinamik olarak kodlanmış bu uygulama,gerek performans gerek sistemlerde karışıklık olmaması için özenle geliştirilmeye çalışılmıştır.
 
