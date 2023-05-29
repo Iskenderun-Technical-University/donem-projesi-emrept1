@@ -23,7 +23,9 @@
 
 
 <h1>Projeden Kesitler</h1>
+
 ![image](https://github.com/Iskenderun-Technical-University/donem-projesi-emrept1/assets/90137054/3a8a4ce2-6fdf-41e5-bad8-e27a056c090a)
+
 
 ![image](https://github.com/Iskenderun-Technical-University/donem-projesi-emrept1/assets/90137054/3da544c8-97bf-4005-96a1-eee5f65d03a1)
 
