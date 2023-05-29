@@ -13,7 +13,18 @@
 
 
 <h1>Veri Tabanı Mimari</h1>
+![image](https://github.com/Iskenderun-Technical-University/donem-projesi-emrept1/assets/90137054/0bef4222-d35d-4011-be1c-67eaad0d13ec)
 
 
+<h1>Web Entegresi Kısmı</h1>
 
 ![Overview-of-the-database-architecture](https://user-images.githubusercontent.com/90137054/232465856-f59c8f1c-5713-4d4f-951c-47dbe200d50a.png)
+
+
+
+<h1>Projeden Kesitler</h1>
+![image](https://github.com/Iskenderun-Technical-University/donem-projesi-emrept1/assets/90137054/3a8a4ce2-6fdf-41e5-bad8-e27a056c090a)
+
+![image](https://github.com/Iskenderun-Technical-University/donem-projesi-emrept1/assets/90137054/3da544c8-97bf-4005-96a1-eee5f65d03a1)
+
+
